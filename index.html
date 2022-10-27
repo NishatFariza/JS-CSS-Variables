@@ -5,8 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS CSS Variables</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <h2>Update CSS variables in <span>JS</span></h2>
+        <div class="controls-wrap">
+            <label for="spacing">Spacing:</label>
+            <input type="range" name="spacing" id="spacing" min="10" max="200" value="10" data-sizing="px">
+
+            <label for="blur">Blur:</label>
+            <input type="range" name="blur" id="blur" min="0" max="25" value="10" data-sizing="px">
+
+            <label for="base">Base Color:</label>
+            <input type="color" name="color" id="color" value="#0aa364">
+        </div>
+
+
+
+    <script src="js/app.js"></script>
 </body>
 </html>
