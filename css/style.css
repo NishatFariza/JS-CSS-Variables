@@ -1,5 +1,5 @@
 :root{
-    --base: #0a9b22;
+    --base: #08e72d;
     --spacing: 10px;
     --blur: 10px;
 
@@ -7,7 +7,7 @@
 
 body{
     text-align: center;
-    background-color: rgb(13, 168, 189);
+    background-color: rgb(3, 77, 87);
     font-size: 2rem;
     color: white;
     font-family: monospace;
@@ -16,7 +16,7 @@ body{
 }
 
 img{
-    margin-top: 20px;
+    
     padding: var(--spacing);
     background: var(--base);
     filter: blur(var(--blur));
@@ -24,4 +24,12 @@ img{
 
 span{
     color:var(--base)
+}
+
+.controls-wrap{
+    margin-bottom: 40px;
+}
+
+input{
+    width: 100px;
 }
