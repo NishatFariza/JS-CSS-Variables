@@ -2,12 +2,13 @@
     --base: #08e72d;
     --spacing: 10px;
     --blur: 10px;
+    --background-color: #077099;
 
 }
 
 body{
     text-align: center;
-    background-color: rgb(3, 77, 87);
+    background-color: var(--background-color);
     font-size: 2rem;
     color: white;
     font-family: monospace;

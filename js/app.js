@@ -1,8 +1,9 @@
 const inputs = document.querySelectorAll(".controls-wrap input")
 
 function handleUpdate() {
-    const suffix = this.dataset.suffix || "";
-    
+    const suffix = this.dataset.sizing || "";
+    document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix)
+
 }
 
 
