@@ -1,6 +1,27 @@
 :root{
-    --base: #0aa364;
+    --base: #0a9b22;
     --spacing: 10px;
-    
+    --blur: 10px;
 
+}
+
+body{
+    text-align: center;
+    background-color: rgb(13, 168, 189);
+    font-size: 2rem;
+    color: white;
+    font-family: monospace;
+   
+
+}
+
+img{
+    margin-top: 20px;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+span{
+    color:var(--base)
 }
